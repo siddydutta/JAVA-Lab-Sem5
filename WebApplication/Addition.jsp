@@ -7,6 +7,8 @@
     </head>
     <body>
         <h2>Addition Result</h2>
+        
+        <%-- Scriptlet for JAVA Statements --%>
         <%
             String num1 = request.getParameter("num1");
             String num2 = request.getParameter("num2");
