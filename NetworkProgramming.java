@@ -22,7 +22,7 @@ public class NetworkProgramming
         for(int i = 0; i < sw.length; i++)
             System.out.print(sw[i] + " ");
         
-        System.out.println("Demonstrating URL Class");
+        System.out.println("\n\n\nDemonstrating URL Class");
         String webAddress = "https://www.java.com/en/download/win10.jsp";
         URL obj = new URL(webAddress); // throws MalformedURLException
         System.out.println("Protocol: " + obj.getProtocol());
