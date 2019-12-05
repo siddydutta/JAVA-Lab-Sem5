@@ -1,11 +1,11 @@
 import java.sql.*;
-public class DatabaseConn
+public class DatabaseConnectivity
 {
 	public static void main(String[] args)
 	{
 		try
 		{
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.jdbc.Driver"); // Loads MySQL Driver
 			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample","root","1234");
 			Statement s = con.createStatement();
 			ResultSet rs = s.executeQuery("select * from student");
